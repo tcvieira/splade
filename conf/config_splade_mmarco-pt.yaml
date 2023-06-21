@@ -3,7 +3,7 @@ defaults:
   ############## TRAIN ###################################
   - train/config: splade_monogpu
   - train/data: mmarco-pt
-  - train/model: splade_bertimbau_base
+  - train/model: splade_bertimbau
   ############## INDEX ###################################
   - index: mmarco-pt
   ############## RETRIEVE ################################
