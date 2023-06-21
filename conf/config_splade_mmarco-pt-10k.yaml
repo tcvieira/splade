@@ -12,6 +12,6 @@ defaults:
   - flops: mmarco-pt
 
 config:
-  checkpoint_dir: models/splade_mmarco_pt/checkpoint
-  index_dir: models/splade_mmarco_pt/index
-  out_dir: models/splade_mmarco_pt/out
+  checkpoint_dir: models/splade_mmarco_pt_10k/checkpoint
+  index_dir: models/splade_mmarco_pt_10k/index
+  out_dir: models/splade_mmarco_pt_10k/out
