@@ -14,7 +14,7 @@ record_frequency: 10000
 train_monitoring_freq: 500
 warmup_steps: 6000
 max_length: 256
-fp16: false
+fp16: true
 matching_type: splade
 monitoring_ckpt: MRR@10  # or e.g. MRR@10
 loss: InBatchPairwiseNLL

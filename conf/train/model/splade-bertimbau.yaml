@@ -5,7 +5,7 @@ init_dict:
   model_type_or_dir_q: null
   freeze_d_model: 0
   agg: max
-  fp16: false
+  fp16: true
 
 config:
   tokenizer_type: neuralmind/bert-base-portuguese-cased
