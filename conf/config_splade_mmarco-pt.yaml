@@ -7,7 +7,7 @@ defaults:
   ############## INDEX ###################################
   - index: mmarco-pt
   ############## RETRIEVE ################################
-  - retrieve_evaluate: all
+  - retrieve_evaluate: mmarco-pt
   ############### FLOPS ##################################
   - flops: mmarco-pt
 
