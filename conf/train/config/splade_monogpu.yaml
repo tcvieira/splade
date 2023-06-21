@@ -14,6 +14,22 @@ record_frequency: 10000
 train_monitoring_freq: 500
 warmup_steps: 6000
 max_length: 256
-fp16: true
+fp16: false
 matching_type: splade
 monitoring_ckpt: MRR@10  # or e.g. MRR@10
+loss: InBatchPairwiseNLL
+augment_pair: in_batch_negatives
+regularizer:
+  FLOPS:
+    lambda_q: 5e-4
+    lambda_d: 3e-4
+    T: 3
+    targeted_rep: rep
+    reg: FLOPS
+# regularizer:
+#     FLOPS:
+#         lambda_q: 0.5
+#         lambda_d: 0.4
+#         T: 50000
+#         targeted_rep: rep
+#         reg: FLOPS
