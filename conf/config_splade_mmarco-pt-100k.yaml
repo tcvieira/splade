@@ -2,7 +2,7 @@
 defaults:
   ############## TRAIN ###################################
   - train/config: splade_monogpu
-  - train/data: mmarco-pt-10k
+  - train/data: mmarco-pt-100k
   - train/model: splade_bertimbau
   ############## INDEX ###################################
   - index: mmarco-pt
@@ -12,6 +12,6 @@ defaults:
   - flops: mmarco-pt
 
 config:
-  checkpoint_dir: models/splade_mmarco_pt_10k/checkpoint
-  index_dir: models/splade_mmarco_pt_10k/index
-  out_dir: models/splade_mmarco_pt_10k/out
+  checkpoint_dir: models/splade_mmarco_pt_100k/checkpoint
+  index_dir: models/splade_mmarco_pt_100k/index
+  out_dir: models/splade_mmarco_pt_100k/out
