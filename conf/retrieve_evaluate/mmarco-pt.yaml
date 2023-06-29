@@ -7,4 +7,4 @@ data:
 config:
   top_k: 1000
   threshold: 0
-  eval_metric: [[mrr_10, recall, ndcg_cut_20, recall@1000]]
+  eval_metric: [[mrr_10, recall, ndcg, ndcg_cut, ndcg_rel]]
