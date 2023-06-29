@@ -2,7 +2,7 @@
 
 data:
   Q_COLLECTION_PATH: [data/mmarco-pt/dev_queries]
-  EVAL_QREL_PATH: [data/mmarco-pt/dev_qrel.json]
+  EVAL_QREL_PATH: [data/mmarco-pt/qrel/qrel.json]
 
 config:
   top_k: 1000
