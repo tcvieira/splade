@@ -1,0 +1,17 @@
+# config based on splade++_max and splade_monogpu
+defaults:
+  ############## TRAIN ###################################
+  - train/config: splade_monogpu-1k
+  - train/data: mmarco-pt-1k
+  - train/model: splade_bertimbau
+  ############## INDEX ###################################
+  - index: mmarco-pt
+  ############## RETRIEVE ################################
+  - retrieve_evaluate: mmarco-pt
+  ############### FLOPS ##################################
+  - flops: mmarco-pt
+
+config:
+  checkpoint_dir: models/splade_mmarco_pt-1k/checkpoint
+  index_dir: models/splade_mmarco_pt-1k/index
+  out_dir: models/splade_mmarco_pt-1k/out
